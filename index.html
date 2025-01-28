@@ -1,0 +1,563 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <!-- <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    /> -->
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <div class="info-content">
+            <h1 class="name" title="Richard hanrick">Vidhi Sheth</h1>
+
+            <p class="title">Software Developer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+12133522795" class="contact-link"
+                  >+1 (747) 444-2469</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>United States</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="mailto:vsheth024@gmail.com" class="social-link">
+                <ion-icon name="mail-outline"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a href="https://github.com/VidhiS024" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/vidhi-s024/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Education</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Experience</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              As a Software Developer with over 7 years of experience, I
+              specialize in delivering high-quality web applications using .NET
+              technologies. I have a strong track record of building scalable,
+              high-performance applications, utilizing C#, ASP.NET Core, MVC,
+              Web API, and RESTful services.
+            </p>
+
+            <p>
+              My expertise spans a wide array of technologies, including
+              JavaScript, TypeScript, Python, and modern front-end frameworks
+              like Angular and React, ensuring seamless, user-friendly
+              interfaces. I have a deep understanding of database management,
+              with extensive experience in SQL Server, Entity Framework Core,
+              and LINQ.
+            </p>
+
+            <p>
+              I'm passionate about crafting intelligent software architectures
+              and solving complex problems, focusing on optimizing performance,
+              scalability, and security. I am proficient with Git, CI/CD
+              pipelines, automated testing, and Agile development, always
+              striving to deliver robust, efficient code with rapid turnaround.
+            </p>
+
+            <p>
+              With a strong foundation in Object-Oriented Programming (OOP),
+              design patterns, and continuous learning, I am driven by the
+              challenge of building innovative solutions that exceed client
+              expectations.
+            </p>
+          </section>
+
+          <section class="service">
+            <h3 class="h3 service-title">Technical Skills</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Programming Languages</h4>
+
+                  <p class="service-item-text">
+                    C#, SQL, JavaScript, TypeScript, Python
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Web Technologies & Frameworks
+                  </h4>
+
+                  <p class="service-item-text">
+                    HTML5, CSS3, .NET (ASP.NET Core, MVC, Web API, Entity
+                    Framework Core, Dapper), Bootstrap, Angular, ReactJS
+                  </p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Databases</h4>
+
+                  <p class="service-item-text" style="margin-bottom: 7px">
+                    Microsoft SQL Server, MySQL
+                  </p>
+
+                  <h4 class="h4 service-item-title">Cloud Technologies</h4>
+
+                  <p class="service-item-text">Microsoft Azure</p>
+                </div>
+              </li>
+
+              <li class="service-item">
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">
+                    Tools, Technologies & Testing Frameworks
+                  </h4>
+
+                  <p class="service-item-text">
+                    Microsoft Visual Studio Code, Visual Studio, SQL Server
+                    Management Studio, Jenkins, Git, GitHub, xUnit, Jasmine and
+                    Karma
+                  </p>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #Education
+      -->
+
+        <article class="resume" data-page="education">
+          <header>
+            <h2 class="h2 article-title">Education</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Master of Science, Computer Science
+                </h4>
+
+                <!-- <span>2007 — 2008</span> -->
+                <span> Wright State University, Dayton, USA </span>
+
+                <!-- <p class="timeline-text">
+                  Nemo enims ipsam voluptatem, blanditiis praesentium voluptum
+                  delenit atque corrupti, quos dolores et quas molestias
+                  exceptur.
+                </p> -->
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Bachelor of Engineering, Information Technology
+                </h4>
+
+                <span
+                  >G H Patel College of Engineering & Technology, Anand,
+                  India</span
+                >
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--
+        - #Experience
+      -->
+
+        <article class="resume" data-page="experience">
+          <header>
+            <h2 class="h2 article-title">Experience</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Developer - Abbott
+                </h4>
+
+                <span>January 2023 — Present</span>
+
+                <p class="timeline-text"></p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Engineer - Integra Connect
+                </h4>
+
+                <span>March 2020 – December 2022</span>
+
+                <p class="timeline-text"></p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Developer - Office Depot
+                </h4>
+
+                <span>January 2019 – February 2020</span>
+
+                <p class="timeline-text"></p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Developer - Virtusa
+                </h4>
+
+                <span>August 2017 - December 2018</span>
+
+                <p class="timeline-text"></p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Software Developer - Kinara Capital
+                </h4>
+
+                <span>August 2016 - July 2017</span>
+
+                <p class="timeline-text"></p>
+              </li>
+            </ol>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://github.com/VidhiS024/angular-spring-ecommerce">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/github-mark-white.png"
+                      alt="finance"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Small-Scale E-Commerce Platform with Angular 17
+                  </h3>
+
+                  <p class="project-category"></p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://github.com/VidhiS024/dotnet-microservices">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/github-mark-white.png"
+                      alt="orizon"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Distributed Banking System with .NET Microservices
+                    Architecture
+                  </h3>
+
+                  <p class="project-category"></p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a
+                  href="https://github.com/VidhiS024/ASPNET-REST-API-with-StoredProcedures"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/github-mark-white.png"
+                      alt="fundo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    ASP.NET REST API CRUD Operations with SQL Server
+                  </h3>
+
+                  <p class="project-category"></p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="https://github.com/VidhiS024/dotnet-mongodb">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/github-mark-white.png"
+                      alt="brawlhalla"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    To-Do Application with React, .NET, and MongoDB
+                  </h3>
+
+                  <p class="project-category"></p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a href="https://github.com/VidhiS024/Wowshop">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/github-mark-white.png"
+                      alt="dsm."
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Deploying .NET 8 Application to Azure App Service with
+                    Docker and GitHub Actions
+                  </h3>
+
+                  <p class="project-category"></p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web design"
+              >
+                <a
+                  href="https://github.com/VidhiS024/ProCodeGuide.Samples.Hangfire"
+                >
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/github-mark-white.png"
+                      alt="metaspark"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">
+                    Hangfire Job Scheduling and Background Tasks with ASP.NET
+                    Core
+                  </h3>
+
+                  <p class="project-category"></p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
